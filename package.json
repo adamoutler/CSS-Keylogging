@@ -4,7 +4,16 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.21.2"
+  },
+  "resolutions": {
+    "body-parser": "^1.20.6",
+    "cookie": "^0.7.2",
+    "path-to-regexp": "^0.1.13",
+    "proxy-addr": "^2.0.8",
+    "qs": "^6.16.0",
+    "send": "^0.19.1",
+    "serve-static": "^1.16.2"
   },
   "scripts": {
     "build": "go run build.go",
